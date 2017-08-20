@@ -1,12 +1,25 @@
 {
-  "name": "application-name",
-  "version": "2.0.0",
+  "name": "botservice",
+  "version": "1.1.0",
+  "description": "my bot",
   "private": true,
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server"
-  },  
-"license": "Apache",
-"engines": {
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "yury",
+  "license": "Apache",
+  "engines": {
     "node": "~0.10.0 || ~4.2.0"
+  },
+  "dependencies": {
+    "botbuilder": "^3.9.0",
+    "restify": "^5.2.0"
   }
 }
+
+
