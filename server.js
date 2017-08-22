@@ -159,5 +159,6 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 //   'directory': '.',
  //   'default': 'index.html'
 //})); 
+// Listen for messages from users 
 server.post('/api/messages', connector.listen());
 
